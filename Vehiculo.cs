@@ -20,7 +20,7 @@ public class caracteristicasGenerales
     public string placa { get; set; }
     public int idchasis { get; set; }
     public string color { get; set; }
-    public float peso { get; set; }
+    public decimal peso { get; set; }
 }
 
 public class caracteristicasEspecificas
