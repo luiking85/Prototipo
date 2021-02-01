@@ -19,6 +19,7 @@ public class caracteristicasGenerales
     public int puertas { get; set; }
     public string placa { get; set; }
     public int idchasis { get; set; }
+    public float peso { get; set; }
 }
 
 public class caracteristicasEspecificas
