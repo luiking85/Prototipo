@@ -7,7 +7,8 @@ public abstract class Vehiculo
 
     public Vehiculo(List<T> generales, List<T>especificas)
 	{
-
+        var context = caracteristicasGenerales;
+        List<caracteristicasGenerales> list = new List<caracteristicasGenerales> { new llantas = '2' };
 	}
 
 
@@ -20,6 +21,7 @@ public class caracteristicasGenerales
     public string placa { get; set; }
     public int idchasis { get; set; }
     public string color { get; set; }
+    public float peso { get; set; }
 }
 
 public class caracteristicasEspecificas
