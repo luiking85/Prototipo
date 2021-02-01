@@ -7,7 +7,8 @@ public abstract class Vehiculo
 
     public Vehiculo(List<T> generales, List<T>especificas)
 	{
-
+        var context = caracteristicasGenerales;
+        List<caracteristicasGenerales> list = new List<caracteristicasGenerales> { new llantas = '2' };
 	}
 
 
