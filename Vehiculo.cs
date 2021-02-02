@@ -21,6 +21,7 @@ public class caracteristicasGenerales
     public int idchasis { get; set; }
     public float peso { get; set; }
     public string direccion { get; set; }
+    public int camarareversa { get; set; }
 }
 
 public class caracteristicasEspecificas
