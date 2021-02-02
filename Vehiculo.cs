@@ -20,6 +20,7 @@ public class caracteristicasGenerales
     public string placa { get; set; }
     public int idchasis { get; set; }
     public float peso { get; set; }
+    public string direccion { get; set; }
 }
 
 public class caracteristicasEspecificas
