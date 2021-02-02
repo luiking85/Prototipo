@@ -5,10 +5,9 @@ public abstract class Vehiculo
 {
 
 
-    public Vehiculo(List<T> generales, List<T>especificas)
+    public Vehiculo(caracteristicasGenerales _caracteristicasGenerales, caracteristicasEspecificas _caracteristicasEspecificas)
 	{
-        var context = caracteristicasGenerales;
-        List<caracteristicasGenerales> list = new List<caracteristicasGenerales> { new llantas = '2' };
+        List<_caracteristicasGenerales> list = new List<caracteristicasGenerales> { new llantas = 2, puertas=4 };
 	}
 
 
